@@ -1,6 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+}
+body{
+    margin: auto;
+}
 .navig{
     display: flex;
     justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .first-menu{
     font-size: 20px;
@@ -28,7 +39,7 @@
     font-size: 14px;
     width: 4.4rem;
     height: 1.9rem;
-    background-color: rgb(96, 96, 222);
+    background-color: rgb(74, 74, 225);
     color: white;
     border: none;
     border-radius: 2px;
@@ -39,7 +50,7 @@
     height: 40px;
 }
 .mid-parent{
-    height: 1000px;
+    height: 586px;
     width: 100%;
     padding-top: 8rem;
 }
@@ -51,9 +62,10 @@
 }
 .input{
     width: 33%;
-    height: 45px;
+    height: 50px;
     border-radius: 30px;
     margin-top: 25px;
+    border-color: rgba(0, 0, 0, 0.221);
 }
 .mid-bttns{
     width: 22%;
@@ -72,10 +84,44 @@
     border: none;
     transition: color .2s;
 }
+.magnify{
+    position: relative;
+    top: -54px;
+    right: 230px;
+    opacity: .6;
+}
+.micro{
+    width: 1.04rem;
+    height: 1.4rem;
+    position: relative;
+    top: -35px;
+    left: 234px;
+    cursor: pointer;
+}
 .search:hover{
     color: black;
 }
-
-
-
-
+#english{
+    color: blue;
+    text-decoration: underline;
+}
+.footer{
+    background-color: rgb(223, 223, 223);
+    width: auto;
+}
+.f-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.first-links{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-links{
+    width: 13%;
+    display: flex;
+    justify-content: space-between;
+}

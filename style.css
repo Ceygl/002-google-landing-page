@@ -2,9 +2,6 @@
     margin: 0px;
     padding: 0px ;
 }
-body{
-    margin: auto;
-}
 .navig{
     display: flex;
     justify-content: space-between;
@@ -136,7 +133,7 @@ a{
     padding-left: 13px;
     height: 23px;
     padding: 8px 7px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.056);
 }
 .country p{
     margin-bottom: 0px;
